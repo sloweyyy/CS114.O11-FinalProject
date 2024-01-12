@@ -29,8 +29,6 @@
 | `22521145` | Trương Lê Vĩnh Phúc| 222521145@gm.uit.edu.vn | [![](https://img.shields.io/badge/sloweyyy-%2324292f.svg?style=flat-square&logo=github      )](https://github.com/sloweyyy) |
 | `22521467` | Lê Thành Tiến| 22521467@gm.uit.edu.vn | [![](https://img.shields.io/badge/ostic71-%2324292f.svg?style=flat-square&logo=github      )](https://github.com/ostic71) |
 
-<<<<<<< Updated upstream
-=======
 
 </p>
 
@@ -82,11 +80,11 @@
 Sau 2 lần thu thập data đầu tiên, có tất cả 6500 ảnh, thuộc vào 5 class. Mỗi class có 1300 ảnh. 
 ID | Tên cảm xúc | Số lượng |   Hình ảnh | 
 --- | --- | -- | -- |
-0 | Angry | 300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/angry/image0001765.jpg?raw=true "") | 
-1 | Fear | 300 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/fear/image0000473.jpg?raw=true "") | 
-2 | Happy | 300 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/happy/ffhq_1003.png?raw=true "") | 
-3 | Neutral | 300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/neutral/ffhq_1003.png?raw=true "") | 
-4 | Sad | 300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/sad/image0000073.jpg?raw=true "") | 
+0 | Angry | 1300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/angry/image0001765.jpg?raw=true "") | 
+1 | Fear | 1300 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/fear/image0000473.jpg?raw=true "") | 
+2 | Happy | 1300 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/happy/ffhq_1003.png?raw=true "") | 
+3 | Neutral | 1300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/neutral/ffhq_1003.png?raw=true "") | 
+4 | Sad | 1300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/sad/image0000073.jpg?raw=true "") | 
 
 ### **3.1.3. Khó khăn của việc thu thập dữ liệu**
 * Khi sử dụng nhiều trang để tìm kiếm cùng một loại cảm xúc, nhiều trang có các tấm ảnh giống nhau.
@@ -148,4 +146,4 @@ Class | Tên cảm xúc | Precission |   Recall |  F1-Score|
 
 
 <a name="demo"></a>
->>>>>>> Stashed changes
+
