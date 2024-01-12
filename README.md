@@ -2,18 +2,15 @@
   <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" target="_blank">
     <img src="https://www.uit.edu.vn/sites/vi/files/banner_uit_15.png">
   </a>
-<<<<<<< Updated upstream
 </div>
 
 #
-<!-- Badge -->
 ![Language](https://img.shields.io/badge/python%203.11-%23FFF.svg?style=for-the-badge&logo=python)
 =======
 </p>
 <h1 align="center"><b>Đồ án cuối kỳ môn Máy học - CS114.O11</b></h1>
 <h2 align="center"><b>BÀI TOÁN PHÂN LOẠI CẢM XÚC
  </br></h2>
->>>>>>> Stashed changes
 
 # Thông tin Môn học
 <table>
