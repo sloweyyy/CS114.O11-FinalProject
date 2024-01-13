@@ -72,14 +72,14 @@
 
 
 ### **3.1.2. Kết quả thu thập dữ liệu**
-Sau 2 lần thu thập data đầu tiên, có tất cả 6500 ảnh, thuộc vào 5 class. Mỗi class có 1300 ảnh. 
+Sau 2 lần thu thập data đầu tiên, có tất cả 6500 ảnh, thuộc vào 5 class. Mỗi class có 1250 ảnh. 
 ID | Tên cảm xúc | Số lượng |   Hình ảnh | 
 --- | --- | -- | -- |
-0 | Angry | 1300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/angry/image0001765.jpg?raw=true "") | 
-1 | Fear | 1300 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/fear/image0000473.jpg?raw=true "") | 
-2 | Happy | 1300 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/happy/ffhq_1003.png?raw=true "") | 
-3 | Neutral | 1300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/neutral/ffhq_1003.png?raw=true "") | 
-4 | Sad | 1300 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/images/sad/image0000073.jpg?raw=true "") | 
+0 | Angry | 1250 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/angry/angry%20(1).jpg?raw=true "") | 
+1 | Fear | 1250 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/fear/fear%20(128).jpg?raw=true "") | 
+2 | Happy | 1250 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/happy/happy%20(1).png?raw=true "") | 
+3 | Neutral | 1250 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/neutral/neutral%20(8).jpg?raw=true "") | 
+4 | Sad | 1240 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/sad/sad%20(1).jpg?raw=true "") | 
 
 ### **3.1.3. Khó khăn của việc thu thập dữ liệu**
 * Khi sử dụng nhiều trang để tìm kiếm cùng một loại cảm xúc, nhiều trang có các tấm ảnh giống nhau.
@@ -92,9 +92,9 @@ ID | Tên cảm xúc | Số lượng |   Hình ảnh |
 
 ### **3.2.1. Chia tập train/val**
 
-* Sau khi label và lọc ảnh, còn lại 6500 ảnh. Tiến hành chia train/val với tỉ lệ 8/2:
-    * Train: 5200 ảnh. 
-    * Val: 1300 ảnh.
+* Sau khi label và lọc ảnh, còn lại 6240 ảnh. Tiến hành chia train/val với tỉ lệ 8/2:
+    * Train: 4992 ảnh. 
+    * Val: 1248 ảnh.
 
 
 # **4. Training Và Đánh Giá Model**
@@ -124,13 +124,13 @@ ID | Tên cảm xúc | Số lượng |   Hình ảnh |
 
 Sau khi thực hiện train model, để xác định model của chúng ta có đủ tốt hay chưa cũng như đảm bảo khả năng nhận diện trong tương lai ta cần có một phương pháp đánh giá với tiêu chí cụ thể. Đối với bài toán Classification, model thường được đánh giá dựa trên Precission, Recall,  F1-score.
 
-Class | Tên cảm xúc | Precission |   Recall |  F1-Score|
---- | --- | -- | -- |-- |
-0 | angry | 0.4795 | 0.5474 | 0.5111 |
-1 | fear | 0.4783 | 0.4074 | 0.4400 |
-2 | sad | 0.4320 | 0.4635 | 0.4472 |
-3 | neutral | 0.8090 | 0.8385 | 0.8235|
-4 | happy | 0.8608 | 0.7952 | 0.8267 |
+| Class | Tên cảm xúc | Precission |   Recall |  F1-Score|
+| --- | --- | -- | -- |-- |
+| 0 | angry | 0.5451 | 0.5531 | 0.5491 |
+| 1 | fear | 0.4859 | 0.5105 | 0.4979 |
+| 2 | happy | 0.7257 | 0.7319 | 0.7288 |
+| 3 | neutral | 0.7339 | 0.7165 | 0.7251 |
+| 4 | sad | 0.4641 | 0.4418 | 0.4527 |
 
 
 ## **5.2. Hướng phát triển trong tương lai**
