@@ -36,8 +36,6 @@
 2. [Xây Dựng Bộ Dữ Liệu](#dulieu)
 3. [Training Và Đánh Giá Model](#training)
 4. [Hướng Phát Triển Và Cải Tiến](#ungdung)
-5. [Demo mô hình](#demo)
-6. [Nguồn Tham Khảo](#thamkhao)
 
 <a name="tongquan"></a>
 # **2. Tổng Quan Về Đồ Án**
@@ -141,6 +139,4 @@ Class | Tên cảm xúc | Precission |   Recall |  F1-Score|
 *	Việc phân loại cần yếu tố thời gian, do đó yêu cầu thiết bị có cấu hình mạnh. Nhưng đa phần các loại điện thoại di động bây giờ không được thiết kế để thực hiện tác vụ này. Chúng em sẽ triển khai model lên web, người dùng sẽ giao tiếp với hệ thống thông qua web. Khi đó ta chỉ cần quan tâm tới tốc độ mạng (Vấn đề về mạng thì dễ giải quyết hơn).
 *	Hướng phát triển tiếp theo là kết hợp model này với Zoom, Google Meet, vì được sử dụng rộng rãi hiện nay ở Việt Nam cho nhiều mục đích.
 
-
-<a name="demo"></a>
 
