@@ -9,7 +9,7 @@
 =======
 </p>
 <h1 align="center"><b>Đồ án cuối kỳ môn Máy học - CS114.O11</b></h1>
-<h2 align="center"><b>BÀI TOÁN PHÂN LOẠI CẢM XÚC
+<h2 align="center"><b>BÀI TOÁN NHẬN DẠNG CẢM XÚC
  </br></h2>
 
 # Thông tin Môn học
@@ -72,14 +72,14 @@
 
 
 ### **3.1.2. Kết quả thu thập dữ liệu**
-Sau 2 lần thu thập data đầu tiên, có tất cả 6500 ảnh, thuộc vào 5 class. Mỗi class có 1250 ảnh. 
+Sau 2 lần thu thập data đầu tiên, có tất cả 4999 ảnh, thuộc vào 5 class. Mỗi class có ~1000 ảnh. 
 ID | Tên cảm xúc | Số lượng |   Hình ảnh | 
 --- | --- | -- | -- |
-0 | Angry | 1250 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/angry/angry%20(1).jpg?raw=true "") | 
-1 | Fear | 1250 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/fear/fear%20(128).jpg?raw=true "") | 
-2 | Happy | 1250 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/happy/happy%20(1).png?raw=true "") | 
-3 | Neutral | 1250 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/neutral/neutral%20(8).jpg?raw=true "") | 
-4 | Sad | 1240 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/sad/sad%20(1).jpg?raw=true "") | 
+0 | Angry | 1000 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/angry/angry%20(1).jpg?raw=true "") | 
+1 | Fear | 1000 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/fear/fear%20(128).jpg?raw=true "") | 
+2 | Happy | 1000 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/happy/happy%20(1).png?raw=true "") | 
+3 | Neutral | 1000 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/neutral/neutral%20(8).jpg?raw=true "") | 
+4 | Sad | 999 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/sad/sad%20(1).jpg?raw=true "") | 
 
 ### **3.1.3. Khó khăn của việc thu thập dữ liệu**
 * Khi sử dụng nhiều trang để tìm kiếm cùng một loại cảm xúc, nhiều trang có các tấm ảnh giống nhau.
