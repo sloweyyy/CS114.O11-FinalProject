@@ -51,11 +51,7 @@
     * Ảnh chân dung của một người.
     
   * OUTPUT: 
-    * Ảnh và mô tả cảm xúc.
-
-      
-      
-
+    * Ảnh cắt mặt và mô tả cảm xúc.
 
 <a name="dulieu"></a>
 # **3.Xây Dựng Bộ Dữ Liệu**
@@ -72,14 +68,14 @@
 
 
 ### **3.1.2. Kết quả thu thập dữ liệu**
-Sau 2 lần thu thập data đầu tiên, có tất cả 4999 ảnh, thuộc vào 5 class. Mỗi class có ~1000 ảnh. 
+Sau 10 lần thu thập data đầu tiên, có tất cả 5000 ảnh, thuộc vào 5 class. Mỗi class có 1000 ảnh. 
 ID | Tên cảm xúc | Số lượng |   Hình ảnh | 
 --- | --- | -- | -- |
 0 | Angry | 1000 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/angry/angry%20(1).jpg?raw=true "") | 
 1 | Fear | 1000 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/fear/fear%20(128).jpg?raw=true "") | 
 2 | Happy | 1000 |  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/happy/happy%20(1).png?raw=true "") | 
 3 | Neutral | 1000 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/neutral/neutral%20(8).jpg?raw=true "") | 
-4 | Sad | 999 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/sad/sad%20(1).jpg?raw=true "") | 
+4 | Sad | 1000 | ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/images/sad/sad%20(1).jpg?raw=true "") | 
 
 ### **3.1.3. Khó khăn của việc thu thập dữ liệu**
 * Khi sử dụng nhiều trang để tìm kiếm cùng một loại cảm xúc, nhiều trang có các tấm ảnh giống nhau.
@@ -92,9 +88,9 @@ ID | Tên cảm xúc | Số lượng |   Hình ảnh |
 
 ### **3.2.1. Chia tập train/val**
 
-* Sau khi label và lọc ảnh, còn lại 6240 ảnh. Tiến hành chia train/val với tỉ lệ 8/2:
-    * Train: 4992 ảnh. 
-    * Val: 1248 ảnh.
+* Sau khi label và lọc ảnh, còn lại 5000 ảnh. Tiến hành chia train/val với tỉ lệ 8/2:
+    * Train: 4000 ảnh. 
+    * Val: 1000 ảnh.
 
 
 # **4. Training Và Đánh Giá Model**
@@ -124,14 +120,13 @@ ID | Tên cảm xúc | Số lượng |   Hình ảnh |
 
 Sau khi thực hiện train model, để xác định model của chúng ta có đủ tốt hay chưa cũng như đảm bảo khả năng nhận diện trong tương lai ta cần có một phương pháp đánh giá với tiêu chí cụ thể. Đối với bài toán Classification, model thường được đánh giá dựa trên Precission, Recall,  F1-score.
 
-| Class | Tên cảm xúc | Precission |   Recall |  F1-Score|
-| --- | --- | -- | -- |-- |
-| 0 | angry | 0.5451 | 0.5531 | 0.5491 |
-| 1 | fear | 0.4859 | 0.5105 | 0.4979 |
-| 2 | happy | 0.7257 | 0.7319 | 0.7288 |
-| 3 | neutral | 0.7339 | 0.7165 | 0.7251 |
-| 4 | sad | 0.4641 | 0.4418 | 0.4527 |
-
+| Class | Tên cảm xúc | Precision | Recall | F1-Score |
+| ----- | ------------ | --------- | ------ | -------- |
+| 0     | Angry        | 0.5561    | 0.5278 | 0.5416   |
+| 1     | Fear         | 0.5251    | 0.4947 | 0.5095   |
+| 2     | Happy        | 0.7767    | 0.8333 | 0.8040   |
+| 3     | Neutral      | 0.8191    | 0.7762 | 0.7971   |
+| 4     | Sad          | 0.4692    | 0.5156 | 0.4913   |
 
 ## **5.2. Hướng phát triển trong tương lai**
 
