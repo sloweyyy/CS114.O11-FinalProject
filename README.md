@@ -62,9 +62,9 @@
 *	Cách thức thu thập: 
   * Tìm kiếm các keywords của cảm xúc liên quan (angry face humman, happy face,....) trên các trang web google, bing, unsplash.com, freepik.com,...
   * Sử dụng extension của trình duyệt google Chrome (Download All Images) để tải về tất cả các ảnh có trong trang.
-  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/material/1.png?raw=true)
+  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/material/1.png?raw=true)
   * Giải nén folder vừa tải về và xóa bớt các bức ảnh sai chủ đề.
-  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/material/2.png?raw=true)
+  ![](https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/material/2.png?raw=true)
 
 
 ### **3.1.2. Kết quả thu thập dữ liệu**
@@ -100,20 +100,20 @@ ID | Tên cảm xúc | Số lượng |   Hình ảnh |
 
   * Mục tiêu của SVM là tìm ra một siêu phẳng trong không gian N chiều (ứng với N đặc trưng) chia dữ liệu thành hai phần tương ứng với lớp của chúng. Nói theo ngôn ngữ của đại số tuyển tính, siêu phẳng này phải có lề cực đại và phân chia hai bao lồi và cách đều chúng.
 <p align ="middle">
-<img src = "https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/material/3.webp?raw=true" height='400' width='400' />
+<img src = "https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/material/3.webp?raw=true" height='400' width='400' />
 </p>
 
 ### **4.1.2. Nguyên lý hoạt động**
   * Trong không gian N chiều, một siêu phẳng là một không gian con có kích thước N-1 chiều. Một cách trực quan, trong một mặt phẳng (2 chiều) thì siêu phẳng là một đường thẳng, trong một không gian 3 chiều thì siêu phẳng là một mặt phẳng. Để phân chia hai lớp dữ liệu, rõ ràng là có rất nhiều siêu phẳng có thể làm được điều này. Mặc dù vậy, mục tiêu của chúng ta là tìm ra siêu phẳng có lề rộng nhất tức là có khoảng cách tới các điểm của hai lớp là lớn nhất. Hình dưới đây là một ví dụ trực quan về điều đó.
 
 <p align ="middle">
-<img src = "https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/material/5.gif?raw=true" height='600' width='800' />
+<img src = "https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/material/5.gif?raw=true" height='600' width='800' />
 </p>
 
   * Để phân chia hai lớp dữ liệu, rõ ràng là có rất nhiều siêu phẳng có thể làm được điều này. Mặc dù vậy, mục tiêu của chúng ta là tìm ra siêu phẳng có lề rộng nhất tức là có khoảng cách tới các điểm của hai lớp là lớn nhất. Hình dưới đây là một ví dụ trực quan về điều đó.
 
 <p align ="middle">
-<img src = "https://github.com/sloweyyy/CS114.O11-FinalProject/blob/ver112024/material/6.jpeg?raw=true" height='400' width='800' />
+<img src = "https://github.com/sloweyyy/CS114.O11-FinalProject/blob/main/material/6.jpeg?raw=true" height='400' width='800' />
 </p>
 
 ## **4.1. Đánh giá mô hình**
