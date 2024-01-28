@@ -144,8 +144,8 @@ Sau khi thực hiện train model, để xác định model của chúng ta có 
 
 ## 7. Hướng phát triển trong tương lai
 
-*	Hệ thống sẽ trả về thông tin phân loại trực tiếp trên video, không chỉ ảnh.
-*	Việc phân loại cần yếu tố thời gian, do đó yêu cầu thiết bị có cấu hình mạnh. Nhưng đa phần các loại điện thoại di động bây giờ không được thiết kế để thực hiện tác vụ này. Chúng em sẽ triển khai model lên web, người dùng sẽ giao tiếp với hệ thống thông qua web. Khi đó ta chỉ cần quan tâm tới tốc độ mạng (Vấn đề về mạng thì dễ giải quyết hơn).
-*	Hướng phát triển tiếp theo là kết hợp model này với Zoom, Google Meet, vì được sử dụng rộng rãi hiện nay ở Việt Nam cho nhiều mục đích.
+-	Hệ thống sẽ trả về thông tin phân loại trực tiếp trên video, không chỉ ảnh.
+-	Việc phân loại cần yếu tố thời gian, do đó yêu cầu thiết bị có cấu hình mạnh. Nhưng đa phần các loại điện thoại di động bây giờ không được thiết kế để thực hiện tác vụ này. Chúng em sẽ triển khai model lên web, người dùng sẽ giao tiếp với hệ thống thông qua web. Khi đó ta chỉ cần quan tâm tới tốc độ mạng (Vấn đề về mạng thì dễ giải quyết hơn).
+-	Hướng phát triển tiếp theo là kết hợp model này với Zoom, Google Meet, vì được sử dụng rộng rãi hiện nay ở Việt Nam cho nhiều mục đích.
 
 
